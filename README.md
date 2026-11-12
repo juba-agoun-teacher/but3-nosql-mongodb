@@ -165,7 +165,7 @@ Ces commandes supposent que les fichiers JSON contiennent chacun un tableau de d
 
 ### 1.7. Vérifier l'installation et l'importation
 
-Dans un terminal, connectez-vous au serveur local :
+Dans un terminal (`CMD`), connectez-vous au serveur local :
 
 ```shell
 mongosh "mongodb://127.0.0.1:27017"
