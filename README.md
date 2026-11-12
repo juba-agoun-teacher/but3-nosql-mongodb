@@ -116,6 +116,8 @@ On va désormais créer une base de donnée, utiliser le boutons (+) à coté de
 
 ![add_db](imgs/create_db.png)
 
+Nommez la base de données `R501` et créer des collections avec le même nom des fichiers que vous avec télécheger depuis *R501-mondgodb.zip*
+
 ### 1.6. Importer les données dans votre serveur local (Facultatif - A ne pas faire)
 
 L'importation en ligne de commande nécessite l'outil `mongoimport`, qui fait partie des **MongoDB Database Tools**. Ces outils sont distribués séparément du serveur dans les versions actuelles.
