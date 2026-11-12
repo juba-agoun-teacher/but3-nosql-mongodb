@@ -28,7 +28,7 @@ Le serveur local est accessible à l'adresse `mongodb://127.0.0.1:27017`. Le por
 
 ### 1.2. Installer MongoDB Community Server
 
-Téléchargez et installez **MongoDB Community Server** en suivant ce [lien](https://bul.univ-lyon2.fr/index.php/s/MvVMdwQy1cxIF6U/download), l'édition gratuite du serveur MongoDB. Pour ceux qui n'ont pas Windows choisissez votre système d'exploitation et suivez les instructions officielles :
+Téléchargez et installez **MongoDB Community Server** en suivant ce [lien](https://bul.univ-lyon2.fr/index.php/s/MvVMdwQy1cxIF6U/download ), l'édition gratuite du serveur MongoDB. Pour ceux qui n'ont pas Windows choisissez votre système d'exploitation et suivez les instructions officielles :
 
 - [Installation de MongoDB Community Edition (documentation officielle)](https://www.mongodb.com/docs/manual/installation/)
 - [Plateformes prises en charge](https://www.mongodb.com/docs/community-platform-support/)
