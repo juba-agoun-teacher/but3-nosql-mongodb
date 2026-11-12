@@ -28,7 +28,7 @@ Le serveur local est accessible à l'adresse `mongodb://127.0.0.1:27017`. Le por
 
 ### 1.2. Installer MongoDB Community Server
 
-Téléchargez et installez **MongoDB Community Server**, l'édition gratuite du serveur MongoDB. Choisissez votre système d'exploitation et suivez les instructions officielles :
+Téléchargez et installez **MongoDB Community Server** en suivant ce ![lien](https://bul.univ-lyon2.fr/index.php/s/MvVMdwQy1cxIF6U/download), l'édition gratuite du serveur MongoDB. Pour ceux qui n'ont pas Windows choisissez votre système d'exploitation et suivez les instructions officielles :
 
 - [Installation de MongoDB Community Edition (documentation officielle)](https://www.mongodb.com/docs/manual/installation/)
 - [Plateformes prises en charge](https://www.mongodb.com/docs/community-platform-support/)
@@ -57,6 +57,8 @@ net start MongoDB
 
 Le répertoire d'installation se trouve généralement sous `C:\Program Files\MongoDB\Server\`, mais son emplacement dépend des choix effectués pendant l'installation.
 
+> ⚠️ Si ce n'est pas le cas notez le dans le rendu de votre TP
+
 #### Sous macOS ou Linux
 
 Suivez la procédure officielle correspondant à votre système et à votre gestionnaire de paquets depuis la [documentation d'installation de MongoDB Community Edition](https://www.mongodb.com/docs/manual/installation/).
@@ -66,8 +68,8 @@ Après l'installation, démarrez le service MongoDB en suivant les instructions 
 ### 1.3. Installer MongoDB Shell (`mongosh`)
 
 `mongosh` est le shell en ligne de commande utilisé dans ce TP. Il est distribué séparément du serveur dans les installations actuelles : vérifiez qu'il est bien installé.
-
-- [Télécharger et installer mongosh (documentation officielle)](https://www.mongodb.com/docs/mongodb-shell/install/)
+- Pour la version windows, nous allons utiliser cette version en suivant ce [lien](https://bul.univ-lyon2.fr/index.php/s/8gRd6y9M6Ge7Fcm/download) 
+- Pour les autres [Télécharger et installer mongosh (documentation officielle)](https://www.mongodb.com/docs/mongodb-shell/install/)
 
 Sous Windows, choisissez le paquet **Windows x64 (MSI)**. Sous macOS ou Linux, sélectionnez le paquet adapté à votre système.
 
@@ -82,8 +84,8 @@ Si le terminal indique que la commande est inconnue, vérifiez que `mongosh` est
 ### 1.4. Installer MongoDB Compass 
 
 MongoDB Compass fournit une interface graphique pour explorer les bases de données et les collections. Son utilisation est facultative : toutes les requêtes du TP peuvent être exécutées avec `mongosh`.
-
-- [Télécharger MongoDB Compass](https://www.mongodb.com/try/download/compass)
+- Pour les systèmes d'exploitation windows nous allons partir sur cette version a télécharger en suivant ce [lien](https://bul.univ-lyon2.fr/index.php/s/hOUikbPvoCwGSzQ/download)
+- Pour les autres [Télécharger MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - [Instructions d'installation de Compass](https://www.mongodb.com/docs/compass/install/)
 
 Une fois Compass installé, lancez-le et utilisez la chaîne de connexion suivante :
@@ -98,7 +100,7 @@ Cliquez sur **Connect**. Vous vous connectez ainsi au serveur installé sur votr
 
 Téléchargez l'archive contenant les fichiers JSON :
 
-[ Télécharger l'archive R501-mongodb.zip ](https://raw.githubusercontent.com/juba-agoun/teaching-matrials/refs/heads/main/nosql-tp1-mongo/R501-mongodb.zip)
+[ Télécharger l'archive R501-mongodb.zip ](https://bul.univ-lyon2.fr/index.php/s/TAZKnCnifPEMafM/download)
 
 Décompressez l'archive dans un répertoire de votre choix. Elle doit contenir les fichiers JSON nécessaires au TP, notamment ceux correspondant aux collections `grades`, `neighborhoods`, `restaurants` et `zips`.
 
